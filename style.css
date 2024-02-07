@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #e8e8e5;
+}
+.main-box{
+    height: 100%;
+    width: 100%;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 30px;
+    position: fixed;
+    width: 100%;
+}
+.nav h3{
+    background-color: #1E1E21;
+    color: #fff;
+    padding: 14px 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+#count{
+    border-radius: 50%;
+}
+.main-blog{
+    padding: 70px 70px;
+    font-size: 59px;
+    font-weight: 300;
+    line-height: 120px;
+    letter-spacing: -5px;
+}
+.main-blog-2{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 75px;
+    margin-top: -80px
+}
+.main-blog-2 h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+#scroll{
+    /* background-color: beige; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ri-arrow-right-down-line{
+    font-size: 35px;
+}
+.image-1 img{
+    /* background-image: url(/image1.webp); */
+    height: 87%;
+    width: 100%;
+    background-size: cover;
+}
+.about-1{
+    width: 100%;
+    height: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 70px;
+}
+.about-1 > h2{
+    width: 58%;
+    height: 90%;
+    /* background-color: rosybrown; */
+    font-size: 76.32px;
+    font-weight: 600;
+    letter-spacing: -2px;
+    line-height: 75px;
+}
+.about-2{
+    width: 35%;
+    height: 90%;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 2px solid #1E1E21;
+    padding: 10px 60px;
+}
+.about-2 > h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+.ri-instagram-line, .ri-twitter-fill, .ri-dribbble-line{
+    font-size: 25px;
+    border: 2px solid #1E1E21;
+    border-radius: 50%;
+    padding: 10px 10px;
+    margin: 5px 5px;
+    background-color: #1E1E21;
+    color: #fff;
+}
